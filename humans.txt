@@ -1,0 +1,13 @@
+/* TEAM */
+    Your title: Your name.
+    Site:
+    Twitter:
+    Location:
+
+/* THANKS */
+
+/* SITE */
+    Last update: YYYY/MM/DD
+    Standards: HTML5, CSS3
+    Components: HTML5 Boilerplate, normalize.css, Modernizr, jQuery, Sass, Compass, compass-h5bp
+    Software:
