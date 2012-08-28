@@ -9,5 +9,5 @@
 /* SITE */
     Last update: YYYY/MM/DD
     Standards: HTML5, CSS3
-    Components: HTML5 Boilerplate, normalize.css, Modernizr, jQuery, Sass, Compass, compass-h5bp
+    Components: HTML5 Boilerplate, Modernizr, jQuery, Sass, Compass
     Software:
