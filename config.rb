@@ -19,4 +19,3 @@ line_comments = false
 preferred_syntax = :sass
 
 # Requirements
-require "compass-h5bp"
