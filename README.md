@@ -14,6 +14,8 @@ A collection of resources to have the perfect (for me) starting point for front-
 
 Clone the repo `get clone git@github.com:jonfaustman/front-end-skeleton.git` or [download the latest release](https://github.com/jonfaustman/front-end-skeleton/zipball/0.1.0).
 
+Replace UA-XXXXX-X with your Google Analytics site id, or delete the Google Analytics snippet from SKELETON.js.
+
 Search the project for SKELETON and change it to your project/app's name. You can of course skip this step if you prefer.
 
 ### Quick Start
@@ -35,7 +37,11 @@ gem install compass
 
 After Sass and Compass are up and running, feel free to edit the Sass files as you see fit. I prefer to keep all the project/application styles in a single file (SKELETON.sass) but also include imports/variables/mixins, etc. in _base.sass in case there is a need to create additional Sass files throughout.
 
-Customize the Twitter Bootstrap Sass files to meet your project's needs. Be aware that this can complicate upgrading Twitter Boostrap.
+Customize the Twitter Bootstrap Sass files to meet your project's needs. Be aware that this can complicate upgrading Twitter Bootstrap.
+
+#### Markup and included files
+
+Edit the markup to fit your needs.
 
 ## License
 
