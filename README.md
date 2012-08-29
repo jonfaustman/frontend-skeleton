@@ -9,6 +9,7 @@ A collection of resources to have the perfect (for me) starting point for front-
  * [sass-twitter-bootstrap](https://github.com/jlong/sass-twitter-bootstrap)
 * [Compass](https://github.com/chriseppstein/compass)
 * [jQuery](https://github.com/jquery/jquery)
+* [iOS-Orientationchange-Fix](https://github.com/scottjehl/iOS-Orientationchange-Fix)
 
 ## Getting Started
 
@@ -51,6 +52,7 @@ Edit the markup to fit your needs.
 * Twitter Bootstrap: Apache License, Version 2.0
 * Compass: modified MIT License
 * jQuery: MIT/GPL License
+* iOS-Orientationchange-Fix: MIT/GPL v2.0 License
 
 ### Personal Components:
 The Unlicense
