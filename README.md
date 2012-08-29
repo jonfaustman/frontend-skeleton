@@ -4,9 +4,9 @@ A collection of resources to have the perfect (for me) starting point for front-
 
 ## Starring
 * [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
- * [Modernizr](https://github.com/Modernizr/Modernizr)
+    * [Modernizr](https://github.com/Modernizr/Modernizr)
 * [Twitter Bootstrap](https://github.com/twitter/bootstrap)
- * [sass-twitter-bootstrap](https://github.com/jlong/sass-twitter-bootstrap)
+    * [sass-twitter-bootstrap](https://github.com/jlong/sass-twitter-bootstrap)
 * [Compass](https://github.com/chriseppstein/compass)
 * [jQuery](https://github.com/jquery/jquery)
 * [iOS-Orientationchange-Fix](https://github.com/scottjehl/iOS-Orientationchange-Fix)
