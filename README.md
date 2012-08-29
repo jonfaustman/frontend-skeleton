@@ -21,7 +21,7 @@ Search the project for SKELETON and change it to your project/app's name. You ca
 
 ### Quick Start
 
-If you're not using Sass (what's wrong with you?), you can remove the src directory (or not) and edit SKELETON.css directly. You can add `<link rel="stylesheet" href="static/css/bootstrap/responsive.css">' after SKELETON.css if you want to use Twitter Bootstrap's responsive styles.
+If you're not using Sass (what's wrong with you?), you can remove the src directory (or not) and edit SKELETON.css directly. You can add `<link rel="stylesheet" href="static/css/bootstrap/responsive.css">` after SKELETON.css if you want to use Twitter Bootstrap's responsive styles.
 
 If you want to use Sass, but happen to not have Sass or Compass installed, you'll want to do that.
 
