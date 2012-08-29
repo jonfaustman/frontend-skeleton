@@ -42,7 +42,9 @@ Customize the Twitter Bootstrap Sass files to meet your project's needs. Be awar
 
 #### Markup and included files
 
-Edit the markup to fit your needs.
+Edit the markup to fit your needs, it's only meant to help get you started.
+
+The Twitter Bootstrap JavaScript files are included in `static/js/bootstrap/`; add them below the scripts before the end of the body as you need them.
 
 ## License
 
