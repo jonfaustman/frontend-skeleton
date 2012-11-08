@@ -47,14 +47,12 @@ Edit the markup to fit your needs, it's only meant to help get you started.
 Twitter Bootstrap's JavaScript files are included in `static/js/bootstrap/` - as they're needed, add them below the scripts towards the end of body.
 
 ## License
+MIT License
 
 ### Major Components:
-* HTML5 Boilerplate: The Unlicense
+* HTML5 Boilerplate: MIT License
 * Modernizr: BSD/MIT License
 * Twitter Bootstrap: Apache License, Version 2.0
 * Compass: modified MIT License
 * jQuery: MIT/GPL License
 * iOS-Orientationchange-Fix: MIT/GPL v2.0 License
-
-### Personal Components:
-The Unlicense
