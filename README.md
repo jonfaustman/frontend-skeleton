@@ -13,7 +13,7 @@ A collection of resources to have the perfect (for me) starting point for front-
 
 ## Getting Started
 
-Clone the repo `get clone git@github.com:jonfaustman/front-end-skeleton.git` or [download the latest release](https://github.com/jonfaustman/front-end-skeleton/zipball/0.2.0).
+Clone the repo `get clone git@github.com:jonfaustman/front-end-skeleton.git` or [download the latest release](https://github.com/jonfaustman/front-end-skeleton/zipball/0.3.0).
 
 Replace `UA-XXXXX-X` with your Google Analytics tracking ID, or delete the Google Analytics snippet from SKELETON.js.
 
@@ -47,14 +47,12 @@ Edit the markup to fit your needs, it's only meant to help get you started.
 Twitter Bootstrap's JavaScript files are included in `static/js/bootstrap/` - as they're needed, add them below the scripts towards the end of body.
 
 ## License
+MIT License
 
 ### Major Components:
-* HTML5 Boilerplate: The Unlicense
-* Modernizr: BSD/MIT License
+* HTML5 Boilerplate: MIT License
+* Modernizr: MIT License
 * Twitter Bootstrap: Apache License, Version 2.0
 * Compass: modified MIT License
-* jQuery: MIT/GPL License
+* jQuery: MIT License
 * iOS-Orientationchange-Fix: MIT/GPL v2.0 License
-
-### Personal Components:
-The Unlicense
