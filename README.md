@@ -12,7 +12,7 @@ A collection of resources to have the perfect (for me) starting point for front-
 
 ## Getting Started
 
-Clone the repo `get clone git@github.com:jonfaustman/front-end-skeleton.git` or [download the latest release](https://github.com/jonfaustman/front-end-skeleton/zipball/0.3.0).
+Clone the repo `get clone git@github.com:jonfaustman/front-end-skeleton.git` or [download the latest release](https://github.com/jonfaustman/front-end-skeleton/zipball/0.5.0).
 
 Replace `UA-XXXXX-X` with your Google Analytics tracking ID, or delete the Google Analytics snippet from SKELETON.js.
 
