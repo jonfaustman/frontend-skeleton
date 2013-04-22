@@ -3,3 +3,80 @@
 
 // Import Twitter Bootstrap
 @import bootstrap/bootstrap
+
+// Reusable Sass
+// https://gist.github.com/jonfaustman/2715fb68544216f7979b
+
+// Function for calculating rem.
+// Ensure both numbers use the same unit.
+@function rem($size, $base: $base-font-size)
+    @return #{$size/$base}rem
+
+
+// Function for calculating em.
+// Ensure both numbers use the same unit.
+@function em($size, $base: $base-font-size)
+    @return #{$size/$base}em
+
+
+// Font mixin
+$font-intial-value: normal !default
+@mixin font($family: false, $size: false, $style: $font-intial-value, $weight: $font-intial-value, $variant: $font-intial-value, $spacing: false, $height: false, $shorthand: false)
+    @if $shorthand == true
+        @if $height
+            font: $style $variant $weight $size/#{$height} $family
+            font-size: rem($size)
+        @else
+            font: $style $variant $weight $size $family
+            font-size: rem($size)
+        @if $spacing
+            letter-spacing: $spacing
+    @else
+        @if $family
+            font-family: $family
+        @if $size
+            font-size: $size
+            font-size: rem($size)
+        @if $style != $font-intial-value
+            font-style: $style
+        @if $weight != $font-intial-value
+            font-weight: $weight
+        @if $variant != $font-intial-value
+            font-variant: $variant
+        @if $spacing
+            letter-spacing: $spacing
+        @if $height
+            line-height: $height
+
+
+// Web font mixin
+@mixin wf-font($wf-family: false, $wf-size: false, $wf-style: $font-intial-value, $wf-weight: $font-intial-value, $wf-variant: $font-intial-value, $wf-spacing: false, $wf-height: false, $shorthand: false, $wf-hide: false)
+    @if $wf-hide == true
+        .wf-loading &
+            visibility: hidden
+    .wf-active &
+        @if $shorthand == true
+            @if $wf-height
+                font: $wf-style $wf-variant $wf-weight $wf-size/#{$wf-height} $wf-family
+                font-size: rem($wf-size)
+            @else
+                font: $wf-style $wf-variant $wf-weight $wf-size $wf-family
+                font-size: rem($wf-size)
+            @if $wf-spacing
+                letter-spacing: $wf-spacing
+        @else
+            @if $wf-family
+                font-family: $wf-family
+            @if $wf-size
+                font-size: $wf-size
+                font-size: rem($wf-size)
+            @if $wf-style != $font-intial-value
+                font-style: $wf-style
+            @if $wf-weight != $font-intial-value
+                font-weight: $wf-weight
+            @if $wf-variant != $font-intial-value
+                font-variant: $wf-variant
+            @if $wf-spacing
+                letter-spacing: $wf-spacing
+            @if $wf-height
+                line-height: $wf-height
