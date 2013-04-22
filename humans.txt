@@ -9,5 +9,5 @@
 /* SITE */
     Last update: YYYY/MM/DD
     Standards: HTML5, CSS3
-    Components: HTML5 Boilerplate, Modernizr, jQuery, Sass, Compass, Twitter Bootstrap, sass-twitter-bootstrap, iOS-Orientationchange-Fix
+    Components: HTML5 Boilerplate, Modernizr, jQuery, Sass, Compass, Twitter Bootstrap, sass-twitter-bootstrap
     Software:
